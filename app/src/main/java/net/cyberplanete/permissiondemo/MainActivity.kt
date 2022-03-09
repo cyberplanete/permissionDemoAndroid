@@ -1,7 +1,6 @@
-package eu.tutorials.permissiondemo
+package net.cyberplanete.permissiondemo;
 
 import android.Manifest
-import android.content.pm.PackageManager
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,7 +10,6 @@ import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
-import androidx.core.content.ContextCompat
 
 class MainActivity : AppCompatActivity() {
 
